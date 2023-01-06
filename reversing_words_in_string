@@ -1,6 +1,5 @@
+#reversing words in string
 str = 'how are you'
 rev = str.split()[::-1]
-l = []
 for i in rev:
-    l.append(i)
-print(" ".join(l))
+    print(i,end=' ')
